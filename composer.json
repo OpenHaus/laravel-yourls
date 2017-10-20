@@ -12,12 +12,16 @@
         {
             "name": "Daniel Muñoz",
             "email": "dev@danielmunoz.io"
+        },
+        {
+            "name": "Fabio Bacigalupo",
+            "email": "info1@open-haus.de"
         }
     ],
     "require": {
         "php": "^7.0",
-        "illuminate/contracts": "~5.4.0",
-        "illuminate/support": "~5.4.0",
+        "illuminate/contracts": "~5.5",
+        "illuminate/support": "~5.5",
         "guzzlehttp/guzzle": "^6.3"
     },
     "autoload": {
