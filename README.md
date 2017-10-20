@@ -25,3 +25,20 @@ If you want to use the facade to log messages, add this to your facades in app.p
 
 ```php
 'Yourls' => Orumad\Yourls\YourlsFacade::class,
+```
+
+### Config file
+
+Publish the default config file
+
+```php
+php artisan vendor:publish --provider="Orumad\Yourls\YourlsServiceProvider"
+```
+
+## Usage
+
+Using the facade just call
+
+```php
+$shortenedUrl = Yourls::shortUrl('https://github.com/orumad/laravel-yourls');
+```
