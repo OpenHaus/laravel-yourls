@@ -21,7 +21,7 @@ Without auto-discovery add the ServiceProvider to the providers array in config/
 Orumad\Yourls\YourlsServiceProvider::class,
 ```
 
-If you want to use the facade to log messages, add this to your facades in app.php:
+If you want to use the facade add this to your facades in app.php:
 
 ```php
 'Yourls' => Orumad\Yourls\YourlsFacade::class,
